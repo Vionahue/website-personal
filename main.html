@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Pendaftaran</title>
+</head>
+<body>
+	<h2 align="center">FORMULIR PENDAFTARAN<br>PENERIMAAN PESERTA DIDIK BARU (PPDB) CERDAS<BR>TAHUN PELAJARAN</h3>
+<form action="tugas_form2.php" method="POST" enctype="multipart/form-data">
+<table border="0" width="100%" align="center">
+	<tr>
+		<td>
+			<h4>Daftar Pendaftaran</h4>
+		</td>
+	</tr>
+	<tr>
+		<td>NIK</td>
+		<td>:</td>
+		<td><input type="text" name="nik" size="30"></td>
+	</tr>
+	<tr>
+		<td>NO. PENDAFTARAN</td>
+		<td>:</td>
+		<td>C - <input type="text" name="nodaftar" size="20"><i>di isi oleh panitia</i><br></td>
+	</tr>
+	<tr>
+		<td>NISN</td>
+		<td>:</td>
+		<td><input type="text" name="nisn" size="30"><br></td>
+	</tr>
+	<tr>
+		<td>
+			<h4>Data Peserta Didik</h4>
+		</td>
+	</tr>
+	<tr>
+		<td>Nama Peserta Didik</td>
+		<td>:</td>
+		<td><input type="text" name="nama" size="30"><br></td>
+	</tr>
+	<tr>
+		<td>Tanggal Lahir</td>
+		<td>:</td>
+		<td><input type="text" name="tgl" size="30"> Tgl - Bln - Tahun, contoh : 11-07-2010</td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin</td>
+		<td>:</td>
+		<td><input type="radio" name="kelamin" value="P"> Pria
+		<input type="radio" name="kelamin" value="W"> Wanita<br></td>
+	</tr>
+	<tr>
+		<td>Alamat Rumah</td>
+		<td>:</td>
+		<td><input type="text" name="kab/kota" size="30"><br></td>
+	</tr>
+	<tr>
+		<td>No. Telpon / HP</td>
+		<td>:</td>
+		<td><input type="text" name="nohp" size="30"> No. Telepon/HP 2</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>
+			<i>Tuliskan nomor telepon yang dapat dihubungi dan menerima SMS dan Whatsapp</i>
+		</td>
+	</tr>
+	<tr>
+		<td>Asal Sekolah</td>
+		<td>:</td>
+		<td><input type="text" name="asal" size="30"><br></td>
+	</tr>
+	<tr>
+		<td>Berkas Pendaftaran</td>
+		<td>:</td>
+		<td><input type="text" name="akte" size="30" value="Akte Kelahiran Asli" readonly>
+			<input type="checkbox" name="cek1" value="Akte Kelahiran Asli ✓"> Ada
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>
+			<input type="text" name="fckk" size="30" value="Fotokopi Kartu Keluarga" readonly>
+			<input type="checkbox" name="cek2" value="Fotokopi Kartu Keluarga ✓"> Ada
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>
+			<input type="text" name="fcktp" size="30" value="Fotokopi KTP Orangtua/Wali" readonly=>
+			<input type="checkbox" name="cek3" value="Fotokopi KTP Orangtua/Wali ✓"> Ada
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>
+			<input type="text" name="fcrapor" size="30" value="Fotokopi Rapor/Surat Keterangan Nilai Rapor" readonly=>
+			<input type="checkbox" name="cek4" value="Fotokopi Rapor/Surat Keterangan Nilai Rapor ✓"> Ada
+		</td>
+	</tr>
+	<tr>
+		<td colspan="8">Data Nilai Rata-rata Rapor Kelas IV semester 1,2 Kelas V semester 1,2, dan kelas IV 
+		Semester 1</td>
+	<br></tr>
+	<tr>
+		<td colspan="8">(total nilai pengetahuan dan total nilai keterampilan dibagi dua)</td>
+	<br></tr>
+	<tr>
+		<td>PPKN</td>
+		<td>:</td>
+		<td><input type="text" name="ppkn" size="5"><br></td>
+	</tr>
+	<tr>
+		<td>Bahasa Indonesia</td>
+		<td>:</td>
+		<td><input type="text" name="bindo" size="5"><br></td>
+	</tr>
+	<tr>
+		<td>Matematika</td>
+		<td>:</td>
+		<td><input type="text" name="mtk" size="5"><br></td>
+	</tr>
+	<tr>
+		<td>IPA</td>
+		<td>:</td>
+		<td><input type="text" name="ipa" size="5"><br></td>
+	</tr>
+	<tr>
+		<td>IPS</td>
+		<td>:</td>
+		<td><input type="text" name="ips" size="5"><br></td>
+	</tr>
+	<tr>
+		<td>Jumlah</td>
+		<td>:</td>
+		<td><input type="text" name="jumlah" size="5"><br></td>
+	</tr>
+	<tr>
+		<td>Piagam yang dimiliki</td>
+		<td>:</td>
+		<td> 1) <input type="text" name="piagam1" size="10"> Tingkat <input type="text" name="tingkat1" size="10"> Tahun <input type="text" name="tahun1" size="10"><br></td>
+	</tr>
+	<tr>
+		<td>(Asli)</td>
+		<td></td>
+		<td> 2) <input type="text" name="piagam2" size="10"> Tingkat <input type="text" name="tingkat2" size="10"> Tahun <input type="text" name="tahun2" size="10"><br></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td> 3) <input type="text" name="piagam3" size="10"> Tingkat <input type="text" name="tingkat3" size="10"> Tahun <input type="text" name="tahun3" size="10"><br></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td> 4) <input type="text" name="piagam4" size="10"> Tingkat <input type="text" name="tingkat4" size="10"> Tahun <input type="text" name="tahun4" size="10"><br></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td> 5) <input type="text" name="piagam5" size="10"> Tingkat <input type="text" name="tingkat5" size="10"> Tahun <input type="text" name="tahun5" size="10"><br></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td> 6) <input type="text" name="piagam6" size="10"> Tingkat <input type="text" name="tingkat6" size="10"> Tahun <input type="text" name="tahun6" size="10"><br></td>
+	</tr>
+	<tr>
+		<td><input type="submit" name="sub" value="Proses"><input type="reset" name="res" value="clear"></td>
+		<td></td>
+		<td></td>
+	</tr>
+</tr>
+</table>
+</form>
+</body>
+</html>
