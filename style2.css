@@ -80,7 +80,7 @@ body {
 
 @media screen and (max-width: 475px) {
     .card {
-        width: 65%;
+        width: 75%;
     }
 
     .title {
